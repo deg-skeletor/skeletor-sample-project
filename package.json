@@ -1,0 +1,19 @@
+{
+  "name": "skeletor-sample-project",
+  "version": "0.1.0",
+  "description": "A sample website project for testing the Skeletor family of build tools",
+  "scripts": {
+    "build": "node build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deg-skeletor/skeletor-sample-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cssnano": "^3.10.0",
+    "skeletor-core": "git+https://github.com/deg-skeletor/skeletor-core.git",
+    "skeletor-plugin-postcss": "git+https://github.com/deg-skeletor/skeletor-plugin-postcss.git"
+  }
+}
