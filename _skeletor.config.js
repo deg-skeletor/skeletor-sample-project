@@ -6,6 +6,5 @@ module.exports = {
 				require('./skeletor/css.config.js')
 			]
 		}
-
 	]
 }
