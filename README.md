@@ -3,8 +3,9 @@
 The purpose of this sample website project is to test plugins and configurations for the Skeletor family of build tools. This is just a starter project intended for you to clone and modify as needed. To learn more about Skeletor, [go here](https://github.com/deg-skeletor/skeletor-core).
 
 ## Getting Started
+You will need to install [skeletor-cli](https://github.com/deg-skeletor/skeletor-cli) globally in order to run the `skel` command in your terminal. The CLI is still in development, so for now, install the develop branch using `npm install -g git://github.com/deg-skeletor/skeletor-cli.git#develop`.
 After you have cloned this repository, run `npm install` in a terminal to install `skeletor-core` and a few common Skeletor plugins. 
-Now, you're ready to use Skeletor to build the assets of the sample website. This project ships with a basic Skeletor task configuration, so you should be able to run `npm run build` to execute the build task.
+Now, you're ready to use Skeletor to build the assets of the sample website. This project ships with a basic Skeletor task configuration, so you should be able to run `skel` to execute the build task.
 
 ## Installing Published Plugins
 To install a published Skeletor plugin to the sample project, run `npm install [plugin-package-name] --save` in a terminal. Then, add the plugin to the task configuration file(s).
