@@ -11,6 +11,7 @@ module.exports = {
 					}
 				],
 				"plugins": [
+					require('postcss-reporter'),
 					require('stylelint'),
 					require('cssnano')
 				]
