@@ -11,7 +11,7 @@ module.exports = {
 					}
 				],
 				"plugins": [
-					require('stylelint'),
+					require('stylelint')({ fix: true }),
 					require('postcss-reporter')({ clearReportedMessages: true }),
 					require('cssnano')
 				]
