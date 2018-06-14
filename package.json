@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "postcss-reporter": "^5.0.0",
     "cssnano": "^3.10.0",
     "stylelint": "^9.2.1",
     "stylelint-config-standard": "^18.2.0",
