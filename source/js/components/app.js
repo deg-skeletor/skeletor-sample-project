@@ -1,13 +1,4 @@
 import React, {Component} from 'react';
-import {connect} from 'react-redux';
-import {fetchSavedState} from '../actions/index.js';
-import Header from './header.js';
-import InputItemGrid from './inputItemGrid.js';
-import {getUrlSegment} from '../utils/utils.js';
-
-function mapStateToProps(state) {
-	return state;
-}
 
 class App extends Component {
 
@@ -15,21 +6,9 @@ class App extends Component {
 		super(props);
 	}
 
-	componentDidMount() {
-		const {dispatch} = this.props;
-		const savedStateKey = getUrlSegment();
-		if (savedStateKey) {
-			dispatch(fetchSavedState(savedStateKey));
-		}
-	}
-
 	render() {
-	    return ([
-	    	<Header key="header" />,
-			<InputItemGrid key="inputItemGrid" />
-	    ]);
+	    return '';
 	}
-
 }
 
-export default connect(mapStateToProps)(App);
+export default App;

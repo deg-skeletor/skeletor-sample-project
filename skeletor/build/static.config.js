@@ -6,16 +6,10 @@ module.exports = {
 		{
 			"name": "@deg-skeletor/plugin-copy",
 			"config": {
-				directories: [
-					...require('../static-common').directories({
-						imagesDestPath: 'patternlab/images',
-						fontsDestPath: 'patternlab/fonts'
-					}),
-		            {
-		                src: 'source/[index.html]',
-		                dest: path.resolve('app')
-		            }
-				]
+				directories: require('../static-common').directories({
+					imagesDestPath: 'patternlab/images',
+					fontsDestPath: 'patternlab/fonts'
+				})
 			}
 		}
 	]
