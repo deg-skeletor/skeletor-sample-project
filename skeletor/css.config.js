@@ -2,7 +2,7 @@ module.exports = {
 	name: "css",
 	plugins: [
 		{
-			"name": "skeletor-plugin-postcss",
+			"name": "@deg-skeletor/plugin-postcss",
 			"config": {
 				"files": [
 					{

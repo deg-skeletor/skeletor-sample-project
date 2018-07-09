@@ -1,19 +1,23 @@
 {
-  "name": "skeletor-sample-project",
-  "version": "0.1.0",
+  "name": "@deg-skeletor/sample-project",
+  "version": "1.0.0",
   "description": "A sample website project for testing the Skeletor family of build tools",
   "scripts": {
-    "build": "node build"
+    "start": "skel build && skel serve"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/deg-skeletor/skeletor-sample-project.git"
   },
-  "author": "",
+  "author": "Ryan Heap <heaper@gmail.com>",
   "license": "ISC",
-  "dependencies": {
-    "cssnano": "^3.10.0",
-    "skeletor-core": "git+https://github.com/deg-skeletor/skeletor-core.git",
-    "skeletor-plugin-postcss": "git+https://github.com/deg-skeletor/skeletor-plugin-postcss.git"
+  "devDependencies": {
+    "@deg-skeletor/cli": "^1.0.0",
+    "@deg-skeletor/core": "^1.0.0",
+    "@deg-skeletor/plugin-copy": "^0.2.1",
+    "@deg-skeletor/plugin-express": "^1.0.0",
+    "@deg-skeletor/plugin-postcss": "^1.0.0",
+    "@deg-skeletor/plugin-watch": "^1.0.0",
+    "cssnano": "^3.10.0"
   }
 }

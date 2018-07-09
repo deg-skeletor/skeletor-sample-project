@@ -4,10 +4,10 @@ The purpose of this sample website project is to test plugins and configurations
 
 ## Getting Started
 After you have cloned this repository, run `npm install` in a terminal to install `skeletor-core` and a few common Skeletor plugins. 
-Now, you're ready to use Skeletor to build the assets of the sample website. This project ships with a basic Skeletor task configuration, so you should be able to run `npm run build` to execute the build task.
+Now, you're ready to use Skeletor to build the assets of the sample website. This project ships with a basic Skeletor task configuration, including `build`, `watch`, and `serve` tasks. You can also type `npm start` in your terminal to run the `build` and `serve` tasks all at once.
 
 ## Installing Published Plugins
-To install a published Skeletor plugin to the sample project, run `npm install [plugin-package-name] --save` in a terminal. Then, add the plugin to the task configuration file(s).
+To install a published Skeletor plugin to the sample project, run `npm install @deg-skeletor/[plugin-package-name] --save-dev` in a terminal. Then, add the plugin to the task configuration file(s).
 
 ## Installing Local Plugins
 To install a Skeletor plugin that is currently under development on your local machine, you will need to make use of npm's ability to [symlink a local package folder](https://docs.npmjs.com/cli/link). 
