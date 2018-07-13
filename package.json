@@ -16,8 +16,18 @@
     "@deg-skeletor/core": "^1.0.0",
     "@deg-skeletor/plugin-copy": "^0.2.1",
     "@deg-skeletor/plugin-express": "^1.0.0",
+    "@deg-skeletor/plugin-patternlab": "^1.0.0",
     "@deg-skeletor/plugin-postcss": "^1.0.0",
     "@deg-skeletor/plugin-watch": "^1.0.0",
-    "cssnano": "^3.10.0"
+    "autoprefixer": "^8.6.4",
+    "cssnano": "^3.10.0",
+    "postcss-color-function": "^4.0.1",
+    "postcss-custom-media": "^6.0.0",
+    "postcss-custom-properties": "^7.0.0",
+    "postcss-custom-selectors": "^4.0.1",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-nested": "^3.0.0",
+    "styleguidekit-assets-default": "^3.5.2",
+    "styleguidekit-mustache-default": "^3.1.0"
   }
 }

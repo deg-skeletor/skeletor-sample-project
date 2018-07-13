@@ -3,9 +3,9 @@ module.exports = {
 		{
 			name: "build",
 			subTasks: [
-				require('./skeletor/html.config.js'),
 				require('./skeletor/css.config.js'),
-				require('./skeletor/images.config.js')
+				require('./skeletor/images.config.js'),
+				require('./skeletor/patterns.config.js')
 			]
 		},
 		{
