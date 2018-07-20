@@ -14,7 +14,7 @@
   "devDependencies": {
     "@deg-skeletor/cli": "^1.0.0",
     "@deg-skeletor/core": "^1.0.0",
-    "@deg-skeletor/plugin-copy": "^0.2.1",
+    "@deg-skeletor/plugin-copy": "^1.0.0",
     "@deg-skeletor/plugin-express": "^1.0.0",
     "@deg-skeletor/plugin-patternlab": "^1.0.0",
     "@deg-skeletor/plugin-postcss": "^1.0.0",
