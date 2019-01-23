@@ -1,11 +1,30 @@
 {
 	"title" : "DEG UI Project",
 	"mainId" : "main-content",
+	"primaryColors": [
+		{
+			"code": "#000000",
+			"name": "Black"
+		},
+		{
+			"code": "#FFFFFF",
+			"name": "White"
+		}
+	],
+	"secondaryColors": [
+		{
+			"code": "#999999",
+			"name": "Gray"
+		}
+	],
 	"logo" : {
 		"url": "",
 		"alt": "Logo Alt"
 	},
-	"buttonText": "Button",
+	"button": {
+		"content": "Button",
+		"type": "button"
+	},
 	"video": {
 		"videoID": "5le9sYdYkM"
 	},
@@ -41,40 +60,7 @@
 			}
 		]
 	},
-	"field": {
-		"id": "field",
-		"isInvalid": false,
-		"label": {
-			"content": "Label"
-		},
-		"input": {
-			"type": "text",
-			"placeholder": "Placeholder Text",
-			"isRequired": true,
-			"attributes": []
-		},
-		"textarea": {
-			"placeholder": "Placeholder Text",
-			"isRequired": true
-		},
-		"select": {
-			"isRequired": true,
-			"options": [
-				{
-					"label": "Option 1",
-					"value": "1"
-				},
-				{
-					"label": "Option 2",
-					"value": "2"
-				},
-				{
-					"label": "Option 2",
-					"value": "3"
-				}
-			]
-		}
-	},
+	"field": {},
 	"primaryNav": [
 		{
 			"label": "",
