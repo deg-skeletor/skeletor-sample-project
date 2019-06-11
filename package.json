@@ -1,6 +1,6 @@
 {
   "name": "@deg-skeletor/sample-project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A sample website project for testing the Skeletor family of build tools",
   "scripts": {
     "start": "skel build && skel serve"
@@ -18,6 +18,6 @@
     "@deg-skeletor/plugin-express": "^1.0.0",
     "@deg-skeletor/plugin-postcss": "^1.0.0",
     "@deg-skeletor/plugin-watch": "^1.0.0",
-    "cssnano": "^3.10.0"
+    "cssnano": "^4.1.10"
   }
 }
